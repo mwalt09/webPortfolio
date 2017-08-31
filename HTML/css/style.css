@@ -416,7 +416,7 @@ h4.alt-title {
 }
 
 h5.alt-title {
-    font-size: 14px;
+    font-size: 25px;
 }
 
 h6.alt-title {
@@ -3116,12 +3116,12 @@ ul.icon-tab-nav, .icon-tab-nav ul {
     display: inline-block;
     font-size: 38px;
     vertical-align: top;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .counter-content {
-    display: inline-block;
-    text-align: left;
+    display: block;
+    text-align: center;
 }
 
 .counter-title {
