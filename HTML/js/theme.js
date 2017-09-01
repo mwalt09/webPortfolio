@@ -48,13 +48,14 @@ $(function () {
         // Click To Down And Up Elements
         $('.scroll-down[href^="#"], .scroll-to-target[href^="#"]').on('click', function (e) {
             e.preventDefault();
-
+            
             var target = this.hash;
             var $target = $(target);
 
             $('html, body').stop().animate({
                 'scrollTop': $target.offset().top
             }, 900, 'swing', function () {
+                // console.log("Something is happening");
                 window.location.hash = target;
             });
         });

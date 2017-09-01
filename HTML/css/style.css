@@ -2753,8 +2753,10 @@ header.header-prepare .nav-bar-icon > span::after {
     text-align: center;
 }
 
-.intro-sub-title {
+h3.intro-sub-title {
     letter-spacing: 1.5px;
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .intro-title {
