@@ -79,6 +79,13 @@ body {
     padding: 0;
 }
 
+.about.container.text-center {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 10%;
+    float: right;
+}
+
 #page-wraper {
     position: relative;
     width: 100%;
