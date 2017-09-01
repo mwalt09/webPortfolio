@@ -1512,9 +1512,7 @@ form label.error {
     margin-top: 50px;
 }
 
-.mb-50 {
-    margin-bottom: 50px !important;
-}
+
 /*--*/
 .m-45 {
     margin: 45px;
@@ -2759,10 +2757,17 @@ h3.intro-sub-title {
     font-weight: 600;
 }
 
+h3.intro-sub-title.bottom {
+    letter-spacing: 1.5px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
 .intro-title {
     font-size: 70px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 40px; */
     font-weight: 400;
     line-height: 1.1;
     /*letter-spacing: -2px;*/
